@@ -107,7 +107,67 @@ p{
     text-align: center;
 }
 
-#subscribe form label, subscribe form input{
+#subscribe form label, #subscribe form input{
     display: block;
     margin: 0 auto;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer nav ul li  a{
+    padding: 0.5rem;
+}
+
+#social-icons{
+    padding: 0;
+    margin: 0.5;
+    text-align: center;
+}
+
+#social-icons li{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    width: 60px;
+    padding: 1rem;
+    height: 60px;
+    border-radius: 60%;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    header nav span{
+        float: left;
+    }
+
+    header nav ul{
+        float: right;
+        margin: 0;
+    }
+
+    header nav ul li{
+        display: inline-block;
+    }
+
+    header nav{
+        overflow: hidden;
+    }
+
+    main section{
+        overflow: hidden;
+        max-width: 1260px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main article{
+        float: left;
+        margin: 10px;
+    }
 }
